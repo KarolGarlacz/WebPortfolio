@@ -1,0 +1,279 @@
+ <!DOCTYPE html>
+ <html lang="en">
+
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="my portfolio">
+     <meta name="keywords" content="Frontend, webdeveloper, HTML, CSS, JavaScript, React, SASS, RWD, ">
+     <meta name="author" content="Karol Garlacz">
+     <title>Karol Garlacz - portfolio</title>
+     <link rel="stylesheet" href="css/style.css">
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;1,300&display=swap"
+         rel="stylesheet">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+ </head>
+
+ <body>
+     <!-- START NAV -->
+     <header id="nav">
+         <div class="container">
+             <div class="row">
+                 <div class="brand-name">
+                     <a href="" class="logo"><img src="img/logo.png" alt="KG"></a>
+                 </div>
+                 <div class="burger">
+                     <i class="fa fa-bars up"></i>
+                     <i class="fa fa-times"></i>
+                 </div>
+                 <div class="navbar">
+                     <ul>
+                         <li><a href="#home" class="active">Home</a></li>
+                         <li><a href="#about">About</a></li>
+                         <li><a href="#skills">Skills</a></li>
+                         <li><a href="#project">Project</a></li>
+                         <li><a href="#contact">Contact</a></li>
+
+                     </ul>
+                 </div>
+             </div>
+         </div>
+     </header>
+     <!-- END NAV -->
+
+     <!-- START SECTION ABOUT -->
+     <section class="home" id="home">
+         <div class="container">
+             <div class="row full-screen">
+                 <div class="home-content">
+                     <div class="block">
+                         <h6>Hello, my name is</h6>
+                         <h1><span class="unit">K</span>arol Garlacz</h1>
+                         <h3>Welcome to my world</h3>
+                         <div class="cv-btn">
+                             <a href="files/KarolGarlacz_CV.pdf" download>Download CV</a>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </section>
+     <section class="about-me" id="about">
+         <div class="container">
+             <div class="row">
+                 <div class="section-title">
+                     <h1>About me</h1>
+                     <p class="small">Information about</p>
+                 </div>
+             </div>
+             <div class="row">
+                 <div class="about-content">
+                     <div class="row">
+                         <div class="img img-container">
+                             <img src="img/ja.jpg" alt="">
+                         </div>
+                         <div class="text">
+                             <h4>Hi I'm Karol Garlacz</h4>
+                             <p class=letter-space>
+                                 Happy father and husband. Currently I am PM in polish company which deals
+                                 telecomunication industry. Highly motivated to further develop and improve
+                                 qualifications. I started my adventure with programming over a year ago. I am
+                                 self-taught and I got all the knowledge from tutorials, books and specifications.
+                             </p>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </section>
+     <!-- END SECTION ABOUT -->
+
+
+
+     <!-- START SECTION SERVICES -->
+     <section class="services" id="skills">
+         <div class="container">
+             <div class="row">
+                 <div class="section-title">
+                     <h1>Skills</h1>
+                 </div>
+             </div>
+             <div class="row">
+                 <div class="services-content">
+
+                     <div class="box">
+                         <div class="icon">
+                             <i class="fa fa-chalkboard-teacher"></i>
+                         </div>
+                         <h5>Design</h5>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo vitae quidem pariatur
+                             sequi doloribus laudantium deserunt quae necessitatibus nulla, similique, sapiente
+                             assumenda
+                             voluptatibus perferendis. Debitis, doloremque. Fuga provident mollitia earum.</p>
+                     </div>
+                     <div class="box">
+                         <div class="icon"><i class="fa fa-laptop"></i></div>
+
+                         <h5>Technical thinking</h5>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo vitae quidem pariatur
+                             sequi doloribus laudantium deserunt quae necessitatibus nulla, similique, sapiente
+                             assumenda
+                             voluptatibus perferendis. Debitis, doloremque. Fuga provident mollitia earum.</p>
+                     </div>
+                     <div class="box">
+                         <div class="icon"><i class="fa fa-chart-line"></i></div>
+
+                         <h5>Soft skills</h5>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo vitae quidem pariatur
+                             sequi doloribus laudantium deserunt quae necessitatibus nulla, similique, sapiente
+                             assumenda
+                             voluptatibus perferendis. Debitis, doloremque. Fuga provident mollitia earum.</p>
+                     </div>
+
+                 </div>
+             </div>
+     </section>
+     <!-- END SECTION SERVICES -->
+
+     <!-- START SECTION PORTFOLIO -->
+     <section class="portfolio" id="project">
+         <div class="container">
+             <div class="row">
+                 <div class="section-title">
+                     <h1>Latest Work</h1>
+                 </div>
+             </div>
+             <div class="row">
+                 <div class="filter-buttons">
+                     <ul id="filter-btns">
+                         <li class="active" data-target="all">All</li>
+                         <li data-target="html">HTML&CSS</li>
+                         <li data-target="js">JS</li>
+                         <li data-target="react">REACT.js</li>
+                     </ul>
+                 </div>
+             </div>
+             <div class="row">
+                 <div class="portfolio-gallery">
+                     <div class="item" data-id="html">
+                         <img src="img/code.jpg" alt="">
+                         <div class="overlay"><a href="https://github.com/KarolGarlacz/FirstRepository">
+                                 <span class="fab fa-github-square"></span></a>
+                             <h4>HTML&CSS</h4>
+                         </div>
+                     </div>
+                     <div class="item" data-id="js">
+                         <img src="img/code.jpg" alt="">
+                         <div class="overlay">
+                             <a href="https://github.com/KarolGarlacz/FirstRepository"><span
+                                     class="fab fa-github-square"></span></a>
+                             <h4>JS</h4>
+                         </div>
+                     </div>
+                     <div class="item" data-id="react">
+                         <img src="img/code.JPG" alt="">
+                         <div class="overlay">
+                             <a href="https://github.com/KarolGarlacz/ToDoApp"> <span
+                                     class="fab fa-github-square"></span></a>
+                             <h4>REACT</h4>
+                         </div>
+                     </div>
+                     <div class="item" data-id="react">
+                         <img src="img/todoApp.JPG" alt="">
+                         <div class="overlay">
+                             <a href="https://github.com/KarolGarlacz/FirstRepository"><span
+                                     class="fab fa-github-square"></span></a>
+                             <h4>REACT</h4>
+                         </div>
+                     </div>
+                     <div class="item" data-id="react">
+                         <img src="img/code.jpg" alt="">
+                         <div class="overlay">
+                             <a href="https://github.com/KarolGarlacz/FirstRepository"><span
+                                     class="fab fa-github-square"></span></a>
+                             <h4>REACT</h4>
+                         </div>
+                     </div>
+                     <div class="item" data-id="react">
+                         <img src="img/code.jpg" alt="">
+                         <div class="overlay">
+                             <a href="https://github.com/KarolGarlacz/FirstRepository"><span
+                                     class="fab fa-github-square"></span></a>
+                             <h4>REACT</h4>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </section>
+     <!-- END SECTION PORTFOLIO -->
+
+     <!-- CONTACT SECTION -->
+     <section class="contact-section" id="contact">
+         <div class="container">
+             <div class="row"><div class="section-title"><h1>Contact with me:</h1></div>
+             
+                 <div class="contact-img">
+                     
+                     <div class="img-box">
+                        <div class="container">
+                            <div class="row">
+               
+                                <div class="line"><a href="#"></a><img src="img/logo.png" alt="KG"></div>
+                                <div class="bottom-social">
+                                    <a href="https://www.facebook.com/karol.garlacz/" class="btn1"><i class="fab fa-facebook"></i></a>
+                                    <a href="https://github.com/KarolGarlacz/FirstRepository" class="btn1"><i class="fab fa-github"></i></a>
+                                    <a href="#" class="btn1"><i class="fab fa-google"></i></a>
+                                    <a href="https://www.instagram.com/karol.garlacz/?hl=pl" class="btn1"><i class="fab fa-instagram"></i></a>
+                                    <a href="#" class="btn1"><i class="fab fa-youtube"></i></a>
+                                </div>
+               
+                            </div>
+                        </div>
+                        </div>
+                     </div>
+                 </div>
+             </div>
+             <div class="row">
+                 <div class="contact-form">
+                     <form class="form">
+                         <div class="row">
+                             <div class="left input-group">
+                                 <label>Name</label>
+                                 <input type="text" placeholder="Your name here.." class="input-control">
+                             </div>
+                             <div class="right input-group">
+                                 <label>Email</label>
+                                 <input type="text" placeholder="Your email here.." class="input-control">
+                             </div>
+                         </div>
+                         <div class="row">
+                         <div class="input-group">
+                            <label>Message</label>
+                             <textarea class="input-control" placeholder="Your message here..."></textarea>
+                         </div>
+                     </div>
+                     <div class="form-btn">
+                         <button class="submit-btn">Send Message</button>
+                     </div>
+                    </form>
+             </div>
+         </div>
+        </section>
+     <!-- END CONTACT SECTION -->
+
+     <!-- START FOOTER -->
+     <footer>
+         
+
+
+     </footer>
+     <!-- END FOOTER    -->
+
+     <div class="footer-end"><span> &copy; 2020 copyright all right reserved</span> </div>
+     <script src="js/jquery-3.2.1.min.js"></script>
+     <script src="js/script.js"></script>
+ </body>
+
+ </html>
